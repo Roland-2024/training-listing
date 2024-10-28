@@ -14,15 +14,27 @@
 
 <header class="main-header clearfix" role="header">
     <div class="logo">
-        <a href="<?php echo home_url(); ?>"><em>Grad</em> School</a>
+        <a href="<?php echo esc_url(home_url()); ?>">
+            <?php
+            // Check if a custom logo is set
+            if (has_custom_logo()) {
+                // Display the custom logo
+                the_custom_logo();
+            } else {
+                // Display the site title as fallback
+                echo '<em>' . esc_html(get_bloginfo('name')) . '</em>';
+            }
+            ?>
+        </a>
     </div>
+
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
-            <li><a href="#section1">Home</a></li>
-            <li><a href="#section2">About Us</a></li>
-            <li><a href="/trainings">Courses</a></li>
-            <li><a href="#section4">Contact</a></li>
+            <li><a href="#section1">Kreu</a></li>
+            <li><a href="#section2">Rreth nesh</a></li>
+            <li><a href="/trainings">Trajnimet</a></li>
+            <li><a href="#section4">Kontakt</a></li>
         </ul>
     </nav>
 </header>

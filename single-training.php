@@ -1,9 +1,5 @@
 <?php
 get_header(); 
-
-// Call the form handling function
-handle_training_application_form();
-
 // Get custom meta values
 $organization_name = get_post_meta(get_the_ID(), 'organization_name', true);
 $organization_logo = get_post_meta(get_the_ID(), 'organization_logo', true);

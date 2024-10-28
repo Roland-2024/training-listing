@@ -191,3 +191,48 @@ function handle_training_application_form() {
     }
 }
 
+// Function to handle the Contact form submission
+function handle_contact_form_submission() {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_nonce']) && wp_verify_nonce($_POST['contact_form_nonce'], 'contact_form_action')) {
+        
+        // Sanitize and retrieve form data
+        $name = sanitize_text_field($_POST['name']);
+        $email = sanitize_email($_POST['email']);
+        $message = sanitize_textarea_field($_POST['message']);
+
+        // Check if all required fields are filled
+        if (!empty($name) && !empty($email) && !empty($message)) {
+            
+            // Email details
+            $to = 'your-email@example.com'; // Replace with your email address
+            $subject = 'New Contact Form Submission from ' . $name;
+            $body = "Name: $name\nEmail: $email\nMessage:\n$message\n";
+            $headers = array('Content-Type: text/plain; charset=UTF-8', "From: $email");
+
+            // Send the email
+            if (wp_mail($to, $subject, $body, $headers)) {
+                // Redirect back with success message
+                wp_redirect(add_query_arg('status', 'success', wp_get_referer()));
+                exit;
+            } else {
+                // Redirect back with error message
+                wp_redirect(add_query_arg('status', 'failed', wp_get_referer()));
+                exit;
+            }
+        } else {
+            // Redirect back with missing fields error
+            wp_redirect(add_query_arg('status', 'missing_fields', wp_get_referer()));
+            exit;
+        }
+    } else {
+        // Redirect back with nonce verification error
+        wp_redirect(add_query_arg('status', 'nonce_failed', wp_get_referer()));
+        exit;
+    }
+}
+
+add_action('admin_post_nopriv_handle_contact_form', 'handle_contact_form_submission');
+add_action('admin_post_handle_contact_form', 'handle_contact_form_submission');
+
+
+

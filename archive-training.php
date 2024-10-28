@@ -2,7 +2,7 @@
 
 <div class="container py-5">
     <div class="text-center text-dark mt-5 mb-3">
-        <h2>All Trainings</h2>
+        <h2>Të gjitha trajnimet</h2>
     </div>
     
     <div class="row">
@@ -46,14 +46,14 @@
                     </div>
                     
                     <div class="card-footer text-end">
-                        <a href="<?php the_permalink(); ?>" class="btn btn-sm text-white" style="background-color:#f5a425 ;">Details</a>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-sm text-white" style="background-color:#f5a425 ;">Më shumë detaje</a>
                     </div>
                 </div>
             </div>
             <?php endwhile; ?>
         <?php else : ?>
             <div class="col-12">
-                <p>No trainings found.</p>
+                <p>Nuk u gjetën trajnime.</p>
             </div>
         <?php endif; ?>
     </div>

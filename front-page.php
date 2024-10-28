@@ -1,6 +1,8 @@
 <?php
 /* Template Name: Front Page */
-get_header(); ?>
+get_header(); 
+?>
+
 <main>
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="section1">
@@ -10,10 +12,10 @@ get_header(); ?>
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Graduate School of Management</h6>
-                <h2><em>Your</em> Classroom</h2>
+                <h6>Zgjidhni dhe aplikoni për trajnimin që ju përshtatet më shumë</h6>
+                <h2><em>TRAJNIMET</em> E DISPONUESHME</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                    <div class="scroll-to-section"><a href="#section2">Më shumë</a></div>
                 </div>
             </div>
         </div>
@@ -27,12 +29,12 @@ get_header(); ?>
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+                                <h4><i class="fa fa-pencil"></i>Mëso më shumë</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                                <div class="scroll-to-section"><a href="#section2">Më shumë</a></div>
                             </div>
                         </div>
                     </div>
@@ -41,12 +43,12 @@ get_header(); ?>
                     <div class="features-post second-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+                                <h4><i class="fa fa-graduation-cap"></i>Trajnimet e fundit</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section3">Details</a></div>
+                                <div class="scroll-to-section"><a href="#section3">Shiko</a></div>
                             </div>
                         </div>
                     </div>
@@ -55,12 +57,12 @@ get_header(); ?>
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+                                <h4><i class="fa fa-book"></i>Na shkruani</h4>
                             </div>
                             <div class="content-hide">
                                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
                                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+                                <div class="scroll-to-section"><a href="#section4">Kontakt</a></div>
                             </div>
                         </div>
                     </div>
@@ -74,7 +76,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Why choose Grad School?</h2>
+                        <h2>Përse duhet të na zgjidhni ne?</h2>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -92,7 +94,7 @@ get_header(); ?>
                                     </div>
                                     <div class="col-md-6">
                                         <h4>Best Education</h4>
-                                        <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. You can use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                                     </div>
                                 </div>
                             </article>
@@ -131,7 +133,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Choose Your Course</h2>
+                        <h2>Zgjidh trajnimin tënd</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme">
@@ -198,38 +200,59 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Let’s Keep In Touch</h2>
+                        <h2>Na shkruani</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form id="contact" action="" method="post">
+                    <!-- Your Contact Form -->
+                    <form id="contact" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post">
+                        <input type="hidden" name="action" value="handle_contact_form">
+                        <?php wp_nonce_field('contact_form_action', 'contact_form_nonce'); ?>
+
                         <div class="row">
                             <div class="col-md-6">
                                 <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Emri" required>
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
                                 <fieldset>
-                                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" required>
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Mesazhi juaj..." required></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                                    <button type="submit" class="button" name="submit_contact_form">Dërgo mesazhin</button>
                                 </fieldset>
                             </div>
                         </div>
                     </form>
+
+                    <!-- Display Feedback Message Below Form -->
+                    <?php if (isset($_GET['status'])): ?>
+                        <div class="mt-3 alert text-center <?php echo $_GET['status'] === 'success' ? 'alert-success' : 'alert-danger'; ?>">
+                            <?php
+                                if ($_GET['status'] === 'success') {
+                                    echo "Mesazhi juaj u dërgua me sukses!";
+                                } elseif ($_GET['status'] === 'failed') {
+                                    echo "Mesazhi nuk u dërgua, ju lutemi provoni përsëri më vonë!";
+                                } elseif ($_GET['status'] === 'missing_fields') {
+                                    echo "Ju lutemi plotësoni të gjitha fushat e detyrueshme.";
+                                } elseif ($_GET['status'] === 'nonce_failed') {
+                                    echo "Verifikimi i formularit dështoi. Ju lutemi provoni përsëri.";
+                                }
+                            ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
                 <div class="col-md-6">
                     <div id="map">
-                        <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64848.35699490693!2d19.817823200000003!3d41.3331847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310470fac5db%3A0x40092af10653720!2sTirana!5e1!3m2!1sen!2s!4v1730118032448!5m2!1sen!2s" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
