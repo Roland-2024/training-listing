@@ -31,8 +31,8 @@
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
-            <li><a href="#section1">Kreu</a></li>
-            <li><a href="#section2">Rreth nesh</a></li>
+            <li><a href="/#section1">Kreu</a></li>
+            <li><a href="/#section2">Rreth nesh</a></li>
             <li><a href="/trainings">Trajnimet</a></li>
             <li><a href="/#section4">Kontakt</a></li>
         </ul>

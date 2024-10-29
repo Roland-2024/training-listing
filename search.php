@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container mt-5 pt-3">
     <div class="row">
         <div class="col-md-8">
             <h1>Search Results for: <?php echo get_search_query(); ?></h1>
