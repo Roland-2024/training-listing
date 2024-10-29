@@ -34,7 +34,7 @@
             <li><a href="#section1">Kreu</a></li>
             <li><a href="#section2">Rreth nesh</a></li>
             <li><a href="/trainings">Trajnimet</a></li>
-            <li><a href="#section4">Kontakt</a></li>
+            <li><a href="/#section4">Kontakt</a></li>
         </ul>
     </nav>
 </header>
