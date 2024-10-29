@@ -82,9 +82,9 @@ get_header();
                 <div class="col-md-12">
                     <div id='tabs'>
                         <ul>
-                            <li><a href='#tabs-1'>Best Education</a></li>
-                            <li><a href='#tabs-2'>Top Management</a></li>
-                            <li><a href='#tabs-3'>Quality Meeting</a></li>
+                            <li><a href='#tabs-1'>Dija</a></li>
+                            <li><a href='#tabs-2'>Menaxhimi</a></li>
+                            <li><a href='#tabs-3'>Kualiteti/a></li>
                         </ul>
                         <section class='tabs-content'>
                             <article id='tabs-1'>

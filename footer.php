@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>&copy; Copyright <?php echo date("Y"); ?> by Grad School
+                <p>&copy; Copyright <?php echo date("Y"); ?>, Trajnime
                     <!-- | Design: <a href="https://rolandaga.com" rel="sponsored" target="_parent">R.Aga</a> -->
                 </p>
             </div>

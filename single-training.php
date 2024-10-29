@@ -53,20 +53,20 @@ $organization_logo = get_post_meta(get_the_ID(), 'organization_logo', true);
                         
                         <!-- Form fields -->
                         <div class="mb-3">
-                            <label for="applicant_name" class="form-label">Your Name:</label>
+                            <label for="applicant_name" class="form-label">Emri i plotë:</label>
                             <input type="text" class="form-control" id="applicant_name" name="applicant_name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="applicant_email" class="form-label">Your Email:</label>
+                            <label for="applicant_email" class="form-label">Email:</label>
                             <input type="email" class="form-control" id="applicant_email" name="applicant_email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="applicant_message" class="form-label">Your Message:</label>
+                            <label for="applicant_message" class="form-label">Mesazhi:</label>
                             <textarea class="form-control" id="applicant_message" name="applicant_message" rows="4" required></textarea>
                         </div>
                         
                         <!-- Submit button -->
-                        <button type="submit" name="submit_application" class="btn btn-apliko btn-application__submit btn-success w-100">Send Application</button>
+                        <button type="submit" name="submit_application" class="btn btn-apliko btn-application__submit btn-success w-100">Dërgo aplikimin</button>
                     </form>
                 </div>
             </div>
