@@ -93,8 +93,8 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-01.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Best Education</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <h4>Edukimi më i mirë</h4>
+                                        <p>Dija është forca më e madhe që ne posedojmë për të përmirësuar botën. Ky trajnim ofron mundësi për të përvetësuar njohuritë më të fundit dhe për të zgjeruar horizontin tuaj. Përmes programeve dhe kurseve të fokusuara, synojmë të zhvillojmë të menduarit kritik dhe të forcojmë aftësitë praktike për sfidat e shekullit XXI.</p>
                                     </div>
                                 </div>
                             </article>
@@ -104,9 +104,8 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-02.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Top Level</h4>
-                                        <p>You can modify this HTML layout by editing contents and adding more pages as you need. Since this template has options to add dropdown menus, you can put many HTML pages.</p>
-                                        <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio.</p>
+                                        <h4>Menaxhimi më i mirë</h4>
+                                        <p>Një edukim cilësor përfshin gjithashtu ndërtimin e aftësive për të drejtuar dhe menaxhuar. Me këtë trajnim, ne ofrojmë një platformë ku mund të përvetësoni strategji menaxheriale të avancuara dhe të zhvilloni aftësi për të udhëhequr me përgjegjësi. Kjo është një mundësi për të mësuar praktikat më të mira të menaxhimit dhe për të përmirësuar efektivitetin personal dhe profesional.</p>
                                     </div>
                                 </div>
                             </article>
@@ -116,8 +115,8 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-03.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Quality Meeting</h4>
-                                        <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for WordPress.</p>
+                                        <h4>Kualiteti</h4>
+                                        <p>Ne vlerësojmë dhe përkushtohemi për kualitetin në çdo aspekt të trajnimit. Kurset tona janë ndërtuar nga ekspertë të fushave përkatëse për të garantuar se çdo mësim i dorëzohet me cilësinë më të lartë. Qasja jonë bazohet në përmbushjen e nevojave të individëve për një eksperiencë mësimi të thellë dhe të dobishme.</p>
                                     </div>
                                 </div>
                             </article>
