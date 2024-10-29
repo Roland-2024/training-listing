@@ -84,7 +84,7 @@ get_header();
                         <ul>
                             <li><a href='#tabs-1'>Dija</a></li>
                             <li><a href='#tabs-2'>Menaxhimi</a></li>
-                            <li><a href='#tabs-3'>Kualiteti/a></li>
+                            <li><a href='#tabs-3'>Kualiteti</a></li>
                         </ul>
                         <section class='tabs-content'>
                             <article id='tabs-1'>
