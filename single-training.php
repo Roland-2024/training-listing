@@ -42,7 +42,7 @@ $organization_logo = get_post_meta(get_the_ID(), 'organization_logo', true);
             <!-- Apliko Button with Collapsible Form -->
             <div class="application-form mb-5 text-center">
                 <button class="btn btn-apliko btn-application__submit w-50 btn-application btn-lg text-white" type="button" data-bs-toggle="collapse" data-bs-target="#applicationForm" aria-expanded="false" aria-controls="applicationForm">
-                    Apliko
+                    Apply
                 </button>
 
                 <div class="collapse mt-4" id="applicationForm">
@@ -53,7 +53,7 @@ $organization_logo = get_post_meta(get_the_ID(), 'organization_logo', true);
                         
                         <!-- Form fields -->
                         <div class="mb-3">
-                            <label for="applicant_name" class="form-label">Emri i plotë:</label>
+                            <label for="applicant_name" class="form-label">Full Name:</label>
                             <input type="text" class="form-control" id="applicant_name" name="applicant_name" required>
                         </div>
                         <div class="mb-3">
@@ -61,12 +61,12 @@ $organization_logo = get_post_meta(get_the_ID(), 'organization_logo', true);
                             <input type="email" class="form-control" id="applicant_email" name="applicant_email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="applicant_message" class="form-label">Mesazhi:</label>
+                            <label for="applicant_message" class="form-label">Message:</label>
                             <textarea class="form-control" id="applicant_message" name="applicant_message" rows="4" required></textarea>
                         </div>
                         
                         <!-- Submit button -->
-                        <button type="submit" name="submit_application" class="btn btn-apliko btn-application__submit btn-success w-100">Dërgo aplikimin</button>
+                        <button type="submit" name="submit_application" class="btn btn-apliko btn-application__submit btn-success w-100">Submit Application</button>
                     </form>
                 </div>
             </div>

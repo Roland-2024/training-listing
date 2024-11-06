@@ -32,10 +32,10 @@
     <nav id="menu" class="main-nav" role="navigation">
         <ul class="main-menu">
             <li><a href="/#section1">Kreu</a></li>
-            <li><a href="/#section2">About</a></li>
+            <li><a href="/about-me">About</a></li>
             <li><a href="/#section2">Services</a></li>
             <li><a href="/trainings">Blogs</a></li>
-            <li><a href="/trainings">Testimonials</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
             <li><a href="/#section4">Contact</a></li>
         </ul>
     </nav>
