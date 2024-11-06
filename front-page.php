@@ -189,7 +189,7 @@ get_header();
                             <h4><a href="<?php the_permalink(); ?>" style="color:#f5a425;"><?php the_title(); ?></a></h4>
 
                             <!-- Course Excerpt or Description -->
-                            <p><?php echo wp_trim_words(get_the_excerpt(), 40); ?></p>
+                            <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
 
                             <!-- Organization Logo and Name -->
                             <?php if ($organization_logo || $organization_name): ?>
