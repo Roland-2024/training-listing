@@ -15,7 +15,7 @@ get_header();
                 <h6>Transforming Communication for Success</h6>
                 <h2><em>Schedule</em> a Consultation</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">More</a></div>
+                    <div class="scroll-to-section"><a href="/application/">Schedule a Consultation</a></div>
                 </div>
             </div>
         </div>
