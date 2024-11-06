@@ -217,7 +217,7 @@ get_header();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Na shkruani</h2>
+                        <h2>Contact Us</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -229,7 +229,7 @@ get_header();
                         <div class="row">
                             <div class="col-md-6">
                                 <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Emri" required>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Name" required>
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
@@ -239,12 +239,12 @@ get_header();
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Mesazhi juaj..." required></textarea>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message..." required></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-md-12">
                                 <fieldset>
-                                    <button type="submit" class="button" name="submit_contact_form">Dërgo mesazhin</button>
+                                    <button type="submit" class="button" name="submit_contact_form">Send Message</button>
                                 </fieldset>
                             </div>
                         </div>
