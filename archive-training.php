@@ -2,7 +2,7 @@
 
 <div class="container py-5">
     <div class="text-center text-dark mt-5 mb-3">
-        <h2>Të gjitha trajnimet</h2>
+        <h2>Blog</h2>
     </div>
     
     <div class="row">
@@ -53,7 +53,7 @@
             <?php endwhile; ?>
         <?php else : ?>
             <div class="col-12">
-                <p>Nuk u gjetën trajnime.</p>
+                <p>No posts found.</p>
             </div>
         <?php endif; ?>
     </div>

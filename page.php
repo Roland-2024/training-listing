@@ -1,17 +1,35 @@
-<?php get_header(); ?>
+<?php
+get_header();
+?>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                <article>
-                    <h1><?php the_title(); ?></h1>
-                    <p><?php the_content(); ?></p>
-                </article>
-            <?php endwhile; endif; ?>
+<div class="container my-5">
+    <!-- Featured Image Section -->
+    <?php if (has_post_thumbnail()): ?>
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="featured-image">
+                    <?php the_post_thumbnail('large', ['class' => 'img-fluid rounded shadow']); ?>
+                </div>
+            </div>
         </div>
-        <?php get_sidebar(); ?>
+    <?php endif; ?>
+
+    <!-- Page Content Section -->
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="page-content">
+                <h1 class="display-4 text-primary fw-bold mb-4 text-center"><?php the_title(); ?></h1>
+                <div class="content">
+                    <?php
+                    while (have_posts()) : the_post();
+                        the_content();
+                    endwhile;
+                    ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<?php get_footer(); ?>
+<?php
+get_footer();

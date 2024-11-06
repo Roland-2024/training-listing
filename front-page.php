@@ -12,10 +12,10 @@ get_header();
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Zgjidhni dhe aplikoni për trajnimin që ju përshtatet më shumë</h6>
-                <h2><em>TRAJNIMET</em> E DISPONUESHME</h2>
+                <h6>Transforming Communication for Success</h6>
+                <h2><em>Schedule</em> a Consultation</h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#section2">Më shumë</a></div>
+                    <div class="scroll-to-section"><a href="#section2">More</a></div>
                 </div>
             </div>
         </div>
@@ -25,44 +25,57 @@ get_header();
     <section class="features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-3 col-12">
                     <div class="features-post">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-pencil"></i>Mëso më shumë</h4>
+                                <h4><i class="fa fa-pencil"></i>Corporate Training Programs</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section2">Më shumë</a></div>
+                                <p>Team Communication Workshops.</p>
+                                <p>Collaboration and Leadership Development.</p>
+                                <!-- <div class="scroll-to-section"><a href="#section2">Më shumë</a></div> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-3 col-12">
                     <div class="features-post second-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-graduation-cap"></i>Trajnimet e fundit</h4>
+                                <h4><i class="fa fa-graduation-cap"></i>Speech Therapy Services</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section3">Shiko</a></div>
+                                <p>One-on-one sessions for children.</p>
+                                <p>Group sessions and tailored speech interventions.</p>
+                                <!-- <div class="scroll-to-section"><a href="#section3">Shiko</a></div> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-3 col-12">
                     <div class="features-post third-features">
                         <div class="features-content">
                             <div class="content-show">
-                                <h4><i class="fa fa-book"></i>Na shkruani</h4>
+                                <h4><i class="fa fa-book"></i>Consulting for Companies</h4>
                             </div>
                             <div class="content-hide">
-                                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                                <div class="scroll-to-section"><a href="#section4">Kontakt</a></div>
+                                <p>Effective communication strategies.</p>
+                                <p>o	Custom workshops on public speaking and conflict resolution.</p>
+                                <!-- <div class="scroll-to-section"><a href="#section4">Kontakt</a></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="features-post third-features">
+                        <div class="features-content">
+                            <div class="content-show">
+                                <h4><i class="fa fa-book"></i>Workshops for Individuals</h4>
+                            </div>
+                            <div class="content-hide">
+                                <p>Effective communication strategies.</p>
+                                <!-- <div class="scroll-to-section"><a href="#section4">Kontakt</a></div> -->
                             </div>
                         </div>
                     </div>
@@ -76,14 +89,14 @@ get_header();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Përse duhet të na zgjidhni ne?</h2>
+                        <h2>Mission Statement</h2>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div id='tabs'>
                         <ul>
-                            <li><a href='#tabs-1'>Dija</a></li>
-                            <li><a href='#tabs-2'>Menaxhimi</a></li>
+                            <li><a href='#tabs-1'>Mission</a></li>
+                            <li><a href='#tabs-2'>Values</a></li>
                             <li><a href='#tabs-3'>Kualiteti</a></li>
                         </ul>
                         <section class='tabs-content'>
@@ -93,8 +106,8 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-01.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Edukimi më i mirë</h4>
-                                        <p>Dija është forca më e madhe që ne posedojmë për të përmirësuar botën. Ky trajnim ofron mundësi për të përvetësuar njohuritë më të fundit dhe për të zgjeruar horizontin tuaj. Përmes programeve dhe kurseve të fokusuara, synojmë të zhvillojmë të menduarit kritik dhe të forcojmë aftësitë praktike për sfidat e shekullit XXI.</p>
+                                        <h4>Mission Statement</h4>
+                                        <p>To empower individuals and communities through tailored communication strategies and speech therapy interventions, fostering inclusive environments where every voice is heard, valued, and nurtured. Committed to promoting personal and social growth, I strive to bridge gaps in understanding, enhance team collaboration, and inspire meaningful change through compassionate practice, innovative education, and a dedication to lifelong learning.</p>
                                     </div>
                                 </div>
                             </article>
@@ -104,8 +117,11 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-02.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Menaxhimi më i mirë</h4>
-                                        <p>Një edukim cilësor përfshin gjithashtu ndërtimin e aftësive për të drejtuar dhe menaxhuar. Me këtë trajnim, ne ofrojmë një platformë ku mund të përvetësoni strategji menaxheriale të avancuara dhe të zhvilloni aftësi për të udhëhequr me përgjegjësi. Kjo është një mundësi për të mësuar praktikat më të mira të menaxhimit dhe për të përmirësuar efektivitetin personal dhe profesional.</p>
+                                        <h4>Values</h4>
+                                        <p>Empathy and Compassion: Effective communication starts with understanding and genuinely listening to others to foster trust and openness.</p>
+                                        <p>Inclusivity: Embracing diversity, creating safe spaces for everyone to express themselves freely, and receive personalized support.</p>
+                                        <p>Excellence and Professionalism: Upholding the highest standards with evidence-based methods and extensive experience.</p>
+                                        <p>Integrity and Ethics: Prioritizing honesty, transparency, confidentiality, and ethical practices.</p>                                  
                                     </div>
                                 </div>
                             </article>
@@ -115,8 +131,10 @@ get_header();
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/choose-us-image-03.png" alt="">
                                     </div>
                                     <div class="col-md-6">
-                                        <h4>Kualiteti</h4>
-                                        <p>Ne vlerësojmë dhe përkushtohemi për kualitetin në çdo aspekt të trajnimit. Kurset tona janë ndërtuar nga ekspertë të fushave përkatëse për të garantuar se çdo mësim i dorëzohet me cilësinë më të lartë. Qasja jonë bazohet në përmbushjen e nevojave të individëve për një eksperiencë mësimi të thellë dhe të dobishme.</p>
+                                        <h4>Approach</h4>
+                                        <p>Collaboration and Teamwork: Promoting cooperative environments for open idea-sharing and stronger team interactions.</p>
+                                        <p>Continuous Growth and Learning: Staying informed about the latest research and techniques in communication and therapy for effective and current practices.</p>
+                                        <p>Empowerment: Helping individuals find and use their voices confidently, from children in speech development to teams needing better collaboration.</p>
                                     </div>
                                 </div>
                             </article>
@@ -132,7 +150,7 @@ get_header();
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Zgjidh trajnimin tënd</h2>
+                        <h2>Schedule a Consultation</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme">
