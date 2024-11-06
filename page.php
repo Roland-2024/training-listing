@@ -7,7 +7,7 @@ get_header();
     <?php if (has_post_thumbnail()): ?>
         <div class="row mb-4">
             <div class="col-12">
-                <div class="featured-image">
+                <div class="featured-image d-flex justify-content-center">
                     <?php the_post_thumbnail('large', ['class' => 'img-fluid rounded shadow']); ?>
                 </div>
             </div>
