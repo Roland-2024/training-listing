@@ -46,7 +46,7 @@
                     </div>
                     
                     <div class="card-footer text-end">
-                        <a href="<?php the_permalink(); ?>" class="btn btn-sm text-white" style="background-color:#f5a425 ;">Më shumë detaje</a>
+                        <a href="<?php the_permalink(); ?>" class="btn btn-sm text-white" style="background-color:#f5a425 ;">More</a>
                     </div>
                 </div>
             </div>
